@@ -1,0 +1,44 @@
+{
+  "name": "steverydz.com",
+  "version": "1.0.0",
+  "description": "The personal website of Steve Rydz",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf _site && eleventy",
+    "clean": "rm -rf _site",
+    "lint-styles": "stylelint **/*.scss",
+    "serve": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steverydz/steverydz.com.git"
+  },
+  "keywords": [
+    "blog",
+    "personal",
+    "website"
+  ],
+  "author": "Steve Rydz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steverydz/steverydz.com/issues"
+  },
+  "homepage": "https://github.com/steverydz/steverydz.com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "0.11.1",
+    "eleventy-plugin-sass": "1.1.1",
+    "husky": "4.3.0",
+    "lint-staged": "10.5.0",
+    "stylelint": "13.7.2",
+    "stylelint-config-standard": "20.0.0",
+    "stylelint-order": "4.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.scss": "stylelint"
+  }
+}
