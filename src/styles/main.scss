@@ -1,9 +1,8 @@
 @import "variables";
 @import "base";
 @import "layout";
-
-$body-bg-color: #fff !default;
-$text-color: #111 !default;
-$font-family: sans-serif !default;
-$site-max-width: 67.5em !default;
-$site-width: 90% !default;
+@import "header";
+@import "footer";
+@import "lists";
+@import "utilities";
+@import "github-syntax-highlighting";
