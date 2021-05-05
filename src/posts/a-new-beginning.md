@@ -1,5 +1,5 @@
 ---
-date: Created
+date: 2019-12-07
 layout: post
 tags: post
 permalink: "/{{ page.date | date: '%Y/%m/%d' }}/a-new-beginning/index.html"

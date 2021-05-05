@@ -1,5 +1,5 @@
 ---
-date: Created
+date: 2020-11-18
 layout: post
 tags: post
 permalink: "/{{ page.date | date: '%Y/%m/%d' }}/no-design/index.html"

@@ -1,5 +1,5 @@
 ---
-date: Created
+date: 2020-12-26
 layout: post
 tags: post
 permalink: "/{{ page.date | date: '%Y/%m/%d' }}/my-most-liked-photos-of-2020/index.html"
@@ -19,37 +19,37 @@ As the year is drawing to a close I thought it would be nice to publish the most
 I find it interesting that the posts with the most likes are not necessarily images that I&rsquo;m overly proud of. Maybe it&rsquo;s a matter of taste, or maybe it&rsquo;s simply that some posts got more eyes on them than others. Either way, I&rsquo;m proud to present my most liked Instagram photos of 2020.
 
 <a href="https://www.instagram.com/p/B9_xBybnBTN/">
-  <img class="lazyload" data-src="/images/post-images/instagram/ig-01.jpg" width="684" height="456" alt="">
+  <p><img class="lazyload" data-src="/images/post-images/instagram/ig-01.jpg" width="684" height="456" alt=""></p>
 </a>
 
 <a href="https://www.instagram.com/p/CBlaqtfn1nA/">
-  <img class="lazyload" data-src="/images/post-images/instagram/ig-02.jpg" width="684" height="456" alt="">
+  <p><img class="lazyload" data-src="/images/post-images/instagram/ig-02.jpg" width="684" height="456" alt=""></p>
 </a>
 
 <a href="https://www.instagram.com/p/CBjPemUH_Q2/">
-  <img class="lazyload" data-src="/images/post-images/instagram/ig-03.jpg" width="684" height="456" alt="">
+  <p><img class="lazyload" data-src="/images/post-images/instagram/ig-03.jpg" width="684" height="456" alt=""></p>
 </a>
 
 <a href="https://www.instagram.com/p/CBsxV1rn5u5/">
-  <img class="lazyload" data-src="/images/post-images/instagram/ig-04.jpg" width="684" height="456" alt="">
+  <p><img class="lazyload" data-src="/images/post-images/instagram/ig-04.jpg" width="684" height="456" alt=""></p>
 </a>
 
 <a href="https://www.instagram.com/p/CB-ZtxPHB6M/">
-  <img class="lazyload" data-src="/images/post-images/instagram/ig-05.jpg" width="684" height="456" alt="">
+  <p><img class="lazyload" data-src="/images/post-images/instagram/ig-05.jpg" width="684" height="456" alt=""></p>
 </a>
 
 <a href="https://www.instagram.com/p/CCG2R8Ennvf/">
-  <img class="lazyload" data-src="/images/post-images/instagram/ig-06.jpg" width="456" height="684" alt="">
+  <p><img class="lazyload" data-src="/images/post-images/instagram/ig-06.jpg" width="456" height="684" alt=""></p>
 </a>
 
 <a href="https://www.instagram.com/p/CClu5aTni5u/">
-  <img class="lazyload" data-src="/images/post-images/instagram/ig-07.jpg" width="684" height="456" alt="">
+  <p><img class="lazyload" data-src="/images/post-images/instagram/ig-07.jpg" width="684" height="456" alt=""></p>
 </a>
 
 <a href="https://www.instagram.com/p/CBWOEvyjboV/">
-  <img class="lazyload" data-src="/images/post-images/instagram/ig-08.jpg" width="684" height="456" alt="">
+  <p><img class="lazyload" data-src="/images/post-images/instagram/ig-08.jpg" width="684" height="456" alt=""></p>
 </a>
 
 <a href="https://www.instagram.com/p/B7xu04-nTqG/">
-  <img class="lazyload" data-src="/images/post-images/instagram/ig-09.jpg" width="684" height="456" alt="">
+  <p><img class="lazyload" data-src="/images/post-images/instagram/ig-09.jpg" width="684" height="456" alt=""></p>
 </a>

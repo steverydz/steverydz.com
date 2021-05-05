@@ -1,5 +1,5 @@
 ---
-date: Created
+date: 2020-11-20
 layout: post
 tags: post
 permalink: "/{{ page.date | date: '%Y/%m/%d' }}/a-simple-way-to-deal-with-email/index.html"

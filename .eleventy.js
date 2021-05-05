@@ -1,10 +1,30 @@
 const pluginSass = require("eleventy-plugin-sass");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+const format = require("date-fns/format");
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(pluginSass, {
     outputDir: "_site/styles",
     remap: true,
     watch: ["**/*.scss", "!node_modules/**"],
+  });
+
+  eleventyConfig.addPlugin(pluginRss);
+
+  eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy("src/js");
+  eleventyConfig.addPassthroughCopy("src/favicon.ico");
+
+  eleventyConfig.addFilter("short_date", (value) => {
+    return format(value, "dd MMM Y");
+  });
+
+  eleventyConfig.addFilter("long_date", (value) => {
+    return format(value, "dd MMMM Y");
+  });
+
+  eleventyConfig.addFilter("year", (value) => {
+    return format(value, "Y");
   });
 
   return {
