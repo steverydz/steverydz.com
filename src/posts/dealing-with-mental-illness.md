@@ -1,6 +1,6 @@
 ---
 date: Created
-layout: default
+layout: post
 tags: post
 permalink: "/{{ page.date | date: '%Y/%m/%d' }}/dealing-with-mental-illness/index.html"
 title: Dealing with mental illness

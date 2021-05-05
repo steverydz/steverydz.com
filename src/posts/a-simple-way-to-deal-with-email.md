@@ -1,6 +1,6 @@
 ---
 date: Created
-layout: default
+layout: post
 tags: post
 permalink: "/{{ page.date | date: '%Y/%m/%d' }}/a-simple-way-to-deal-with-email/index.html"
 title: A simple way to deal with email

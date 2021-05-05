@@ -1,6 +1,6 @@
 ---
 date: Created
-layout: default
+layout: post
 tags: post
 permalink: "/{{ page.date | date: '%Y/%m/%d' }}/just-write/index.html"
 title: Just write

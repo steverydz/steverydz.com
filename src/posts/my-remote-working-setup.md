@@ -1,6 +1,6 @@
 ---
 date: Created
-layout: default
+layout: post
 tags: post
 permalink: "/{{ page.date | date: '%Y/%m/%d' }}/my-remote-working-setup/index.html"
 title: My remote working setup

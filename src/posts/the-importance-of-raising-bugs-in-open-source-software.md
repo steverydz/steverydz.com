@@ -1,6 +1,6 @@
 ---
 date: Created
-layout: default
+layout: post
 tags: post
 permalink: "/{{ page.date | date: '%Y/%m/%d' }}/the-importance-of-raising-bugs-in-open-source-software/index.html"
 title: The importance of raising bugs in open source software

@@ -1,6 +1,6 @@
 ---
 date: Created
-layout: default
+layout: post
 tags: post
 permalink: "/{{ page.date | date: '%Y/%m/%d' }}/my-most-liked-photos-of-2020/index.html"
 title: My most liked photos of 2020
