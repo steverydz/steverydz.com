@@ -16,15 +16,15 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
 
   eleventyConfig.addFilter("short_date", (value) => {
-    return format(value, "dd MMM Y");
+    return format(value, "dd MMM");
   });
 
   eleventyConfig.addFilter("long_date", (value) => {
-    return format(value, "dd MMMM Y");
+    return format(value, "dd MMMM y");
   });
 
   eleventyConfig.addFilter("year", (value) => {
-    return format(value, "Y");
+    return format(value, "y");
   });
 
   return {
