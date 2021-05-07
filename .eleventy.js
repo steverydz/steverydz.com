@@ -1,6 +1,7 @@
 const pluginSass = require("eleventy-plugin-sass");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const format = require("date-fns/format");
+const { DateTime } = require("luxon");
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(pluginSass, {
@@ -25,6 +26,12 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addFilter("year", (value) => {
     return format(value, "y");
+  });
+
+  eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {
+      zone: "utc",
+    }).toFormat("yyyy-LL-dd");
   });
 
   return {
