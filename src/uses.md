@@ -36,9 +36,10 @@ The above photo is of my current workspace. I started working remotely, like the
 - VS Code
 - iTerm2
 - Todoist
-- Notion
+- Simplenote
 - Figma
 - REAPER
+- Adobe Lightroom Classic
 - Google apps (Gmail, Calendar, Drive, Docs etc.)
 
 I&rsquo;ll try to keep these lists up to date as and when things change but I don&rsquo;t see myself making any major changes to my setup any time soon.

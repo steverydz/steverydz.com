@@ -9,9 +9,9 @@ Hi, my name is Steve and this is my personal website. Here I write about all kin
 
 <p><img src="/images/portrait.jpg" width="684" height="456" alt=""></p>
 
-I currently work as a web developer at [Canonical](https://canonical.com), the company behind [Ubuntu](https://ubuntu.com). Any opinions expressed here are my own and not those of my employer.
+I currently work as a web developer at [Canonical](https://canonical.com), the company behind the [Ubuntu](https://ubuntu.com) operating system. Any opinions expressed here are my own and not those of my employer.
 
-You might be interested to know that I [published a photography zine](https://steverydz.bigcartel.com/product/safe-distance-zine) earlier this year. It&rsquo;s a collection of black and white images which document the area I live in during the [covid-19 pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic).
+You might be interested to know that I [published a photography zine](https://steverydz.bigcartel.com/product/safe-distance-zine) in 2020. It&rsquo;s a collection of black and white images taken during the [covid-19 pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic) which document the area I live in.
 
 If you&rsquo;re interested you can see [what hardware and software I use](/uses).
 
