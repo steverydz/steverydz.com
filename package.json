@@ -4,10 +4,11 @@
   "description": "The personal website of Steve Rydz",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf _site && eleventy",
-    "clean": "rm -rf _site",
-    "lint-styles": "stylelint **/*.scss",
-    "serve": "eleventy --serve"
+    "build": "rm -rf _site && npm run sass && eleventy",
+    "sass": "sass src/styles/main.scss _site/styles/main.css",
+    "serve": "npm-run-all sass --parallel watch:*",
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "npm run sass -- --watch"
   },
   "repository": {
     "type": "git",
@@ -27,21 +28,9 @@
   "devDependencies": {
     "@11ty/eleventy": "0.11.1",
     "@11ty/eleventy-plugin-rss": "1.1.1",
-    "date-fns": "^2.21.2",
-    "eleventy-plugin-sass": "1.1.1",
-    "husky": "4.3.0",
-    "lint-staged": "10.5.0",
+    "date-fns": "2.21.2",
     "luxon": "1.26.0",
-    "stylelint": "13.7.2",
-    "stylelint-config-standard": "20.0.0",
-    "stylelint-order": "4.1.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "**/*.scss": "stylelint"
+    "npm-run-all": "4.1.5",
+    "sass": "1.34.0"
   }
 }

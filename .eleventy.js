@@ -1,15 +1,8 @@
-const pluginSass = require("eleventy-plugin-sass");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const format = require("date-fns/format");
 const { DateTime } = require("luxon");
 
 module.exports = (eleventyConfig) => {
-  eleventyConfig.addPlugin(pluginSass, {
-    outputDir: "_site/styles",
-    remap: true,
-    watch: ["**/*.scss", "!node_modules/**"],
-  });
-
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addPassthroughCopy("src/images");

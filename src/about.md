@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+url: /about/
 ---
 
 # About
