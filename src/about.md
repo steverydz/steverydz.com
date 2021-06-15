@@ -8,11 +8,15 @@ url: /about/
 
 Hi, my name is Steve and this is my personal website. Here I write about all kinds of subjects but primarily topics relating to web development, photography and music.
 
-<p><img src="/images/portrait.jpg" width="684" height="456" alt=""></p>
+<p><img class="lazyload" src="/images/portrait.jpg" width="684" height="456" alt=""></p>
 
 I currently work as a web developer at [Canonical](https://canonical.com), the company behind the [Ubuntu](https://ubuntu.com) operating system. Any opinions expressed here are my own and not those of my employer.
 
-You might be interested to know that I [published a photography zine](https://steverydz.bigcartel.com/product/safe-distance-zine) in 2020. It&rsquo;s a collection of black and white images taken during the [covid-19 pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic) which document the area I live in.
+Back in the day I wrote two articles which appeared in issues 231 and 242 of the now defunct net magazine. One on version control and the other was for the build off section where I designed the landing page for a fictional theme park.
+
+<p><img class="lazyload" src="/images/net_magazine.jpg" width="684" height="513"></p>
+
+You might be interested to know that I [published a photography zine](https://steverydz.bigcartel.com/product/safe-distance-zine) in 2020. It&rsquo;s a collection of black and white images taken during the [covid-19 pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic) which document the area I live in. You can [read a review of the work on Analog.Cafe](https://www.analog.cafe/r/safe-distance-x9i5).
 
 If you&rsquo;re interested you can see [what hardware and software I use](/uses).
 
