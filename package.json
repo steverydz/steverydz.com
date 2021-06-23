@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "The personal website of Steve Rydz",
   "scripts": {
-    "start": "eleventy --serve"
+    "start": "rm -rf dist && eleventy --serve"
   },
   "repository": {
     "type": "git",
